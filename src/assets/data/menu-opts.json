@@ -1,0 +1,116 @@
+[{
+        "icon": "american-football",
+        "name": "Action Sheet",
+        "redirecTo": "/action-sheet"
+    },
+    {
+        "icon": "alert-circle",
+        "name": "Alert",
+        "redirecTo": "/alert"
+    },
+    {
+        "icon": "beaker",
+        "name": "Avatar",
+        "redirecTo": "/avatar"
+    },
+    {
+        "icon": "radio-button-on",
+        "name": "Buttons",
+        "redirecTo": "/button"
+    },
+    {
+        "icon": "card",
+        "name": "Cards",
+        "redirecTo": "/card"
+    },
+    {
+        "icon": "checkmark-circle",
+        "name": "CheckBox",
+        "redirecTo": "/check"
+    },
+    {
+        "icon": "calendar",
+        "name": "Date Time",
+        "redirecTo": "/date-time"
+    },
+    {
+        "icon": "reorder-four",
+        "name": "Fab",
+        "redirecTo": "/fab"
+    },
+    {
+        "icon": "grid",
+        "name": "Grid",
+        "redirecTo": "/grid"
+    },
+    {
+        "icon": "infinite",
+        "name": "Infinite Scroll",
+        "redirecTo": "/infinite"
+    },
+    {
+        "icon": "text",
+        "name": "Inputs",
+        "redirecTo": "/input"
+    },
+    {
+        "icon": "list",
+        "name": "Lists",
+        "redirecTo": "/list"
+    },
+    {
+        "icon": "list-circle",
+        "name": "List Reorder",
+        "redirecTo": "/list-reorder"
+    },
+    {
+        "icon": "refresh-circle",
+        "name": "Loading",
+        "redirecTo": "/loading"
+    },
+    {
+        "icon": "copy",
+        "name": "Modal",
+        "redirecTo": "/modal"
+    },
+    {
+        "icon": "file-tray-stacked",
+        "name": "Popover",
+        "redirecTo": "/popover"
+    },
+    {
+        "icon": "podium",
+        "name": "Progress Bar",
+        "redirecTo": "/progress"
+    },
+    {
+        "icon": "refresh",
+        "name": "Refresher",
+        "redirecTo": "/refresher"
+    },
+    {
+        "icon": "search",
+        "name": "Search",
+        "redirecTo": "/search"
+    },
+    {
+        "icon": "bookmarks",
+        "name": "Segment",
+        "redirecTo": "/segment"
+    },
+    {
+        "icon": "layers",
+        "name": "Slide",
+        "redirecTo": "/slide"
+    },
+    {
+        "icon": "logo-buffer",
+        "name": "Tabs",
+        "redirecTo": "/tabs"
+    },
+    {
+        "icon": "albums",
+        "name": "Toast",
+        "redirecTo": "/toast"
+    }
+]

@@ -1,0 +1,65 @@
+<ion-header>
+    <ion-toolbar>
+
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/" color="primary" text="Atrás"></ion-back-button>
+        </ion-buttons>
+
+        <ion-title color="primary">Segment</ion-title>
+    </ion-toolbar>
+
+
+    <ion-segment value="todos" (ionChange)="segmentChanged($event)">
+
+        <ion-segment-button value="todos">
+            <ion-label>Todos</ion-label>
+        </ion-segment-button>
+
+        <ion-segment-button value="DC Comics">
+            <ion-label>DC Comics</ion-label>
+        </ion-segment-button>
+
+        <ion-segment-button value="Marvel Comics">
+            <ion-label>Marvel Comics</ion-label>
+        </ion-segment-button>
+
+    </ion-segment>
+
+</ion-header>
+
+
+<ion-content>
+
+    <ion-list>
+        <ion-item *ngFor="let heroe of ( superHeroes | async ) | filtro:publisher:'publisher'" class="animate__animated animate__fadeIn">
+            <ion-label>
+                <h3> <strong>Hero: </strong> {{heroe.superhero}}</h3>
+                <h4> <strong>Character: </strong> {{heroe.characters}}</h4>
+                <h5> <strong>Name: </strong> {{heroe.alter_ego}}</h5>
+            </ion-label>
+            <ion-label slot="end" class="ion-text-right">{{heroe.publisher}}</ion-label>
+        </ion-item>
+    </ion-list>
+
+
+    <ion-list *ngIf="( superHeroes | async ) === null">
+        <ion-item *ngFor="let item of [1,1,1,1,1,1,1,1,1]">
+            <ion-label>
+                <h3>
+                    <ion-skeleton-text animated style="width: 50%"></ion-skeleton-text>
+                </h3>
+                <h4>
+                    <ion-skeleton-text animated style="width: 100%"></ion-skeleton-text>
+                </h4>
+                <h5>
+                    <ion-skeleton-text animated style="width: 50%"></ion-skeleton-text>
+                </h5>
+            </ion-label>
+
+            <ion-skeleton-text slot="end" animated style="width: 50px; height: 50px;"></ion-skeleton-text>
+
+        </ion-item>
+    </ion-list>
+
+
+</ion-content>
